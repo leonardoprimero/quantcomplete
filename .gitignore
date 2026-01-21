@@ -1,0 +1,25 @@
+# Generated Reports and Data
+quant_client_report/
+output/
+charts/
+individual_assets/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+venv/
+.venv/
+env/
+.env
+
+# System Files
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,211 @@
+[                       0%                       ][*********             18%                       ]  2 of 11 completed[*************         27%                       ]  3 of 11 completed[*****************     36%                       ]  4 of 11 completed[**********************45%                       ]  5 of 11 completed[**********************55%*                      ]  6 of 11 completed[**********************64%******                 ]  7 of 11 completed[**********************73%**********             ]  8 of 11 completed[**********************82%**************         ]  9 of 11 completed[**********************91%*******************    ]  10 of 11 completed[*********************100%***********************]  11 of 11 completed
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/asset_analyzer.py:165: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+/Users/leguillo/prueba antigravity/quant/clustering.py:58: RuntimeWarning: Mean of empty slice.
+  avg_corr = cluster_returns.corr().values[np.triu_indices_from(
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:335: RuntimeWarning: divide by zero encountered in matmul
+  Q, _ = normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:335: RuntimeWarning: overflow encountered in matmul
+  Q, _ = normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:335: RuntimeWarning: invalid value encountered in matmul
+  Q, _ = normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:336: RuntimeWarning: divide by zero encountered in matmul
+  Q, _ = normalizer(A.T @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:336: RuntimeWarning: overflow encountered in matmul
+  Q, _ = normalizer(A.T @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:336: RuntimeWarning: invalid value encountered in matmul
+  Q, _ = normalizer(A.T @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:340: RuntimeWarning: divide by zero encountered in matmul
+  Q, _ = qr_normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:340: RuntimeWarning: overflow encountered in matmul
+  Q, _ = qr_normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:340: RuntimeWarning: invalid value encountered in matmul
+  Q, _ = qr_normalizer(A @ Q)
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:533: RuntimeWarning: divide by zero encountered in matmul
+  B = Q.T @ M
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:533: RuntimeWarning: overflow encountered in matmul
+  B = Q.T @ M
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:533: RuntimeWarning: invalid value encountered in matmul
+  B = Q.T @ M
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:547: RuntimeWarning: divide by zero encountered in matmul
+  U = Q @ Uhat
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:547: RuntimeWarning: overflow encountered in matmul
+  U = Q @ Uhat
+/Users/leguillo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:547: RuntimeWarning: invalid value encountered in matmul
+  U = Q @ Uhat
+/Users/leguillo/prueba antigravity/quant/backtester.py:149: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  monthly_returns = portfolio_returns.resample('M').apply(lambda x: (1 + x).prod() - 1) * 100
+================================================================================
+GENERACIÓN DE INFORME PROFESIONAL EXTENDIDO PARA CLIENTE
+Nivel: JP Morgan Senior Quant + Advanced Risk Sections
+================================================================================
+
+📁 Directorio de salida: /Users/leguillo/prueba antigravity/quant_client_report
+
+FASE 1: ADQUISICIÓN Y PROCESAMIENTO DE DATOS
+--------------------------------------------------------------------------------
+📊 Descargando datos históricos (3 años)...
+   ✓ Datos descargados: 751 días de trading
+   ✓ Período: 2023-01-23 a 2026-01-20
+   ✓ Estadísticas calculadas para 11 activos
+
+FASE 2: ANÁLISIS INDIVIDUAL DE ACTIVOS
+--------------------------------------------------------------------------------
+📈 Generando análisis cuantitativo detallado por activo...
+   (10 gráficos por activo: precio, Gaussiana, QQ-plot, volatilidad, etc.)
+   ✓ Generados 10 análisis individuales completos
+   ✓ Ubicación: /Users/leguillo/prueba antigravity/quant_client_report/individual_assets/
+
+FASE 3: ANÁLISIS DE CLUSTERING
+--------------------------------------------------------------------------------
+🔬 Ejecutando clustering jerárquico...
+   ✓ Identificados 3 clusters de activos
+   • Cluster 1: 7 activos - AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA
+   • Cluster 2: 2 activos - JPM, V
+   • Cluster 3: 1 activos - WMT
+   ✓ Visualización guardada: clustering_analysis.png
+
+FASE 4: OPTIMIZACIÓN DE PORTFOLIO
+--------------------------------------------------------------------------------
+⚡ Ejecutando optimización de Markowitz...
+   ✓ Portfolio óptimo identificado
+   • Sharpe Ratio: 2.3090
+   • Retorno esperado: 39.88%
+   • Volatilidad: 17.27%
+
+🎲 Ejecutando simulación Monte Carlo...
+   ✓ 50,000 portfolios simulados
+   ✓ Frontera eficiente calculada (100 puntos)
+
+FASE 5: BACKTESTING HISTÓRICO
+--------------------------------------------------------------------------------
+🔬 Ejecutando backtesting del portfolio óptimo...
+   ✓ Backtesting completado
+   • Capital inicial: $10,000
+   • Capital final: $31,330
+   • Retorno total: 213.30%
+   • Máximo drawdown: -23.89%
+   • Sortino Ratio: 3.201
+   ✓ Gráfico guardado: backtest_results.png
+
+FASE 6: MÉTRICAS DE RIESGO AVANZADAS
+--------------------------------------------------------------------------------
+📊 Calculando Alpha, Beta, Tracking Error, Information Ratio...
+   ✓ Alpha anualizado: 22.60%
+   ✓ Beta: 0.910
+   ✓ Tracking Error: 10.45%
+   ✓ Information Ratio: 2.000
+   ✓ Gráfico de benchmark guardado: benchmark_comparison.png
+
+FASE 7: STRESS TESTING Y ESCENARIOS
+--------------------------------------------------------------------------------
+⚠️  Ejecutando stress tests institucionales...
+   ✓ 7 escenarios de stress evaluados
+   • Market shocks: -10%, -20%, -30%
+   • Volatility shocks: 1.5x, 2.0x, 2.5x
+   • Tech sector shock: -25%
+   ✓ Heatmap de stress test guardado: stress_test_heatmap.png
+
+FASE 8: ANÁLISIS DE RIESGO DE COLA
+--------------------------------------------------------------------------------
+📉 Calculando VaR y CVaR (método histórico)...
+   ✓ VaR 95%: -1.51%
+   ✓ CVaR 95%: -2.36%
+   ✓ VaR 99%: -2.53%
+   ✓ CVaR 99%: -3.91%
+   ✓ Gráfico de riesgo de cola guardado: tail_risk_analysis.png
+
+FASE 9: ANÁLISIS DE EJECUCIÓN Y LIQUIDEZ
+--------------------------------------------------------------------------------
+💰 Analizando costos de ejecución a diferentes niveles de AUM...
+   ✓ Costos calculados para 4 niveles de AUM
+   • AUM_$10,000: $20.00 (20.0 bps)
+   • AUM_$100,000: $308.11 (30.8 bps)
+   • AUM_$1,000,000: $6500.00 (65.0 bps)
+   • AUM_$10,000,000: $173113.88 (173.1 bps)
+   ✓ Gráfico de escalabilidad guardado: aum_scalability.png
+
+FASE 10: FRAMEWORK DE GOBERNANZA
+--------------------------------------------------------------------------------
+📋 Generando checklist de monitoreo y eventos gatillo...
+   ✓ 10 actividades de monitoreo definidas
+   ✓ 8 eventos gatillo especificados
+
+FASE 11: ESTRATEGIA DE REBALANCEO
+--------------------------------------------------------------------------------
+🔄 Analizando estrategias de rebalanceo...
+   ✓ Estrategia recomendada: Trimestral
+   • Retorno esperado: 251.30%
+   • Número de rebalanceos: 12
+   • Costos de transacción: $20
+   ✓ Dashboard guardado: rebalancing_strategies.png
+
+FASE 12: VISUALIZACIÓN DE FRONTERA EFICIENTE
+--------------------------------------------------------------------------------
+🎨 Creando gráfico de frontera eficiente...
+Enhanced chart saved to: /Users/leguillo/prueba antigravity/quant_client_report/charts/efficient_frontier.png
+   ✓ Frontera eficiente guardada: efficient_frontier.png
+
+FASE 13: GENERACIÓN DE INFORME EJECUTIVO PDF EXTENDIDO
+--------------------------------------------------------------------------------
+📄 Compilando informe profesional completo con secciones avanzadas...
+   (Incluyendo benchmarking, stress testing, tail risk, limitaciones,
+    ejecución/liquidez, y gobernanza...)
+   ✓ Informe extendido generado: INFORME_EJECUTIVO_PROFESIONAL.pdf
+   ✓ Secciones totales: 14 (8 originales + 6 nuevas)
+
+FASE 14: DOCUMENTACIÓN Y RESUMEN
+--------------------------------------------------------------------------------
+   ✓ README.md generado
+
+================================================================================
+✅ GENERACIÓN COMPLETADA EXITOSAMENTE
+================================================================================
+
+📁 Ubicación: /Users/leguillo/prueba antigravity/quant_client_report/
+
+📄 Archivos generados:
+   • INFORME_EJECUTIVO_PROFESIONAL.pdf - Documento principal EXTENDIDO
+   • README.md - Resumen y guía
+   • charts/ - 8 visualizaciones (4 NUEVAS)
+   • individual_assets/ - 10 análisis individuales
+
+📊 Estadísticas del análisis:
+   • Activos analizados: 10
+   • Portfolios simulados: 50,000
+   • Clusters identificados: 3
+   • Sharpe Ratio óptimo: 2.3090
+   • Alpha vs benchmark: 22.60%
+   • Information Ratio: 2.000
+
+🆕 Nuevas secciones incluidas:
+   • Benchmarking y Performance Relativa
+   • Stress Testing y Escenarios
+   • Riesgo de Cola (VaR/CVaR)
+   • Limitaciones del Modelo
+   • Ejecución y Liquidez
+   • Gobernanza y Monitoreo
+
+================================================================================
+INFORME EXTENDIDO LISTO PARA PRESENTACIÓN AL CLIENTE
+================================================================================
